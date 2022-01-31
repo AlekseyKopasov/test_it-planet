@@ -1,0 +1,78 @@
+// Colors
+//---------------------------------
+// https://www.htmlcsscolor.com/hex/334482
+
+// Default
+
+$color-default-black:             #000000;
+$color-default-white:             #ffffff;
+$color-transparent:               rgba(255, 255, 255, 0);
+
+// Base
+
+$color-haiti:                     #1f1a2d;
+$color-gainsboro:                 #e0e0e0;
+$color-deluge:                    #847e95;
+$color-royal-blue:                #4378ff;
+$color-jordy-blue:                #8aabff;
+$color-dark-gray:                 #a7a7a7;
+$color-victoria:                  #5f5088;
+$color-hawkes-blue:               #dbe1f7;
+$color-manatee:                   #818697;
+$color-neon-blue:                 #3549fd;
+$color-neon-blue-2:               #5d5fef;
+$color-nobel:                     #989898;
+$color-navy-blue:                 #0047ff;
+
+// Box-shadow
+$shadow-input-hover:              1px solid $color-royal-blue;
+$shadow-input:                    1px solid $color-gainsboro;
+
+// Gradient
+
+$black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 75%);
+
+// Typography
+//---------------------------------
+
+$font-family--manrope:               "Manrope", "Arial", sans-serif;
+
+// html font-size
+$font-size-html:                    16px;
+
+// Animation
+//---------------------------------
+
+$trans--300:                        0.3s ease;
+$trans--600:                        0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+// Viewports
+//---------------------------------
+
+$vp--320:                           320px;
+$vp--375:                           375px;
+$vp--768:                           768px;
+$vp--812:                           812px;
+$vp--1024:                          1024px;
+$vp--1280:                          1280px;
+$vp--1440:                          1440px;
+$vp--1920:                          1920px;
+
+// html ratio
+$font-ratio-html-1023:              1.4;
+$landscape-k:                       $vp--1440 / $vp--812 / $font-ratio-html-1023;
+$landscape-k-1023:                  $vp--1440 / $vp--812;
+$landscape-k-767:                   $vp--375 / $vp--812;
+
+// Retina
+//---------------------------------
+
+$retina-dpi:                        144dpi;
+$retina-dppx:                       1.5dppx;
+
+// Padding
+//---------------------------------
+
+$padding-desktop:                   30px;
+$padding-tablet:                    20px;
+$padding-mobile:                    16px;
